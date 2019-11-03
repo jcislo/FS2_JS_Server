@@ -3,7 +3,7 @@ var url = require("url"); // URL handling
 var fs = require("fs"); // File serving
 
 const hostname = "localhost";
-const port = 80; 
+const port = 8080; 
 
 http.createServer(function(req, res) {
     var queryData = url.parse(req.url, true); // parse the URL data
